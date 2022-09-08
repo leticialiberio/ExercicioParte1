@@ -16,7 +16,7 @@ public class App {
         System.out.println("Bem vindo ao sistema de agendamentos!");
         do {
             System.out.println("Escolha a opção desejada:");
-            System.out.println("1 - Realizar agendamento \n2 - Listar agendamentos");
+            System.out.println("1 - Realizar agendamento \n2 - Listar agendamentos do dia");
 
             opcao = scanner.nextInt();
 

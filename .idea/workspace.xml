@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eedbf825-0e1c-4ba4-ab17-39f0dfefc2fa" name="Changes" comment="atualização">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="eedbf825-0e1c-4ba4-ab17-39f0dfefc2fa" name="Changes" comment="adicionando últimas correções">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dominio/Agendamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/Agendamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dominio/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/dominio/Cliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/servico/Agendar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/servico/Agendar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662072166355</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="atualização">
+      <created>1662656410668</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662656410668</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -104,6 +111,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="correção" />
     <MESSAGE value="atualização" />
-    <option name="LAST_COMMIT_MESSAGE" value="atualização" />
+    <MESSAGE value="adicionando últimas correções" />
+    <option name="LAST_COMMIT_MESSAGE" value="adicionando últimas correções" />
   </component>
 </project>
