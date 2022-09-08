@@ -30,10 +30,11 @@ public class App {
 
                     try {
                         Agendamento agendamento = agendar.realizarAgendamento(cliente);
-                        System.out.printf("Agendamento realizado com sucesso! %nAgendamento: %s em %s:\n",
+                        System.out.printf("Agendamento realizado com sucesso! %nAgendamento: %s em %s\n",
                                 agendamento.getIdentificador(), DateTimeFormatter.ofPattern("dd/MM/yyyy HH:mm").format(agendamento.getHorario()));
                     } catch (AcabouSenhaExcecao e) {
                         System.err.println(e.getMessage());
+                        e.printStackTrace();
                     }
                     break;
                 case 2:
