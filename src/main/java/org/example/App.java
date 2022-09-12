@@ -4,6 +4,7 @@ import org.example.dominio.Agendamento;
 import org.example.dominio.Cliente;
 import org.example.excecoes.AcabouSenhaExcecao;
 import org.example.servico.Agendar;
+import org.example.servico.ExportarAgendamentos;
 
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
@@ -13,10 +14,10 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         Agendar agendar = new Agendar();
         Integer opcao = 0;
-        System.out.println("Bem vindo ao sistema de agendamentos!");
+        System.out.println("Bem-vindo ao sistema de agendamentos!");
         do {
             System.out.println("Escolha a opção desejada:");
-            System.out.println("1 - Realizar agendamento \n2 - Listar agendamentos do dia");
+            System.out.println("1 - Realizar agendamento \n2 - Listar agendamentos do dia \n3 - Exportar agendamentos");
 
             opcao = scanner.nextInt();
 
@@ -40,6 +41,8 @@ public class App {
                 case 2:
                     System.out.println(agendar.imprimirAgenda());
                     break;
+                case 3:
+                    System.out.println(exportarAgendamentos.exportarCVSAgendamentos());
                 default:
                     System.out.println("Opçao inválida!");
                     opcao = 0;
